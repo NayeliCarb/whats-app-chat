@@ -1,0 +1,174 @@
+.backHeader{
+	background-color: #16947B;
+	height: 6em;
+}
+.backSection{
+	background-color: #E2D9D9;
+	height: 60em;
+}
+.cuadroFoto{
+	background-color: #ECE3E3;
+	margin-top: 5%;
+	height: 4em;
+	border:1px solid #D5CFCF;
+}
+.scroll{
+	overflow: auto;
+	overflow-x:hidden;
+	height:35em;
+	padding-left: -50px;
+
+}
+.imgPerfil{
+	border-radius: 150%;
+	width: 11%;
+	height: 69%;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.conversacion{
+	height: 50em;
+}
+.buscar{
+	background-color: white;
+	width: 100%;
+	height: 5em;
+	padding: 2%;
+	border-bottom: 1px solid #B8B3B3;
+}
+input[type=search]{
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance: none;
+    width: 100%;
+    border:1px solid #DEDADA;
+    color: #DEDADA;
+    float: left;
+    font-size: 100%;
+    background: url('https://pixabay.com/static/uploads/photo/2014/04/03/00/31/magnifying-glass-308581_960_720.png') no-repeat 170px ;
+    background-size: 5%;
+    background-position:left;
+    background-color: white;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 2em;
+}
+.perfil1{
+	width: 7%;
+	border-radius: 100%;
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+.conv1{
+	background-color: white;
+	border-bottom: 1px solid #B8B3B3;
+	padding: 1%;
+	height: 20	%;
+}
+.texto{
+	display: inline-block;
+	margin-left: 5%;
+}
+.nombre{
+	display: inline-block;
+}
+.hora{
+	margin-top: -6%;
+	margin-left: 10em;
+	display: inline-block;
+}
+.hora1{
+	margin-top: -6%;
+	margin-left: 110%;
+	
+}
+.mensaje{
+	color: #CEC9C9;
+}
+.cuadroNombreConv{
+	background-color: #ECE3E3;
+	width: 110%;
+	height: 4em;
+	margin-top: 3.5%;
+	margin-left: -4.7%;
+	border:1px solid #D5CFCF;
+}
+.nomGrup{
+	font-weight: 600;
+}
+.pergru{
+	width: 6%;
+	margin-left: 2%;
+	margin-top: -1%;
+}
+.integrantes{
+	margin-top: -2%;
+}
+.txt1{
+	margin-left: 10%;
+}
+.fondoChat{
+	
+	height: 37em;
+	background-image: url(../image/chat-panel-bg.png);
+	background-color: #DBD0D0;
+	margin-top: -1%;
+	width: 100.1%;
+}
+.panelGris{
+	margin-left: -5%;
+    margin-top: 3.5%;
+}
+.panelTama{
+	height: 4.3em;
+}
+
+.uno{
+	margin-top: 0.5%;
+}
+.hora2{
+	margin-left: 80%;
+	margin-top: -2%;
+	position: absolute;
+}
+.mensaje1{
+	margin-top: -3%;
+	margin-bottom: -2%;
+}
+.globo2{
+	background-color:#B8FBB5 !important;
+	float: right;
+	width: 35% !important; 
+
+}
+.globo3{
+	background-color:#B8FBB5 !important;
+	margin-left: 70%;
+	width: 30% !important; 
+	margin-top: 3.5em !important;
+	height: 2.5em !important;
+}
+.cuadroRespuesta{
+	width: 100%;
+	height: 4em;
+	background-color: #E5E0E0;
+	padding-left: 2%;
+}
+.fa{
+	font-size: 2em;
+	color: gray;
+}
+.inputRespuesta{
+	width: 80%;
+	border:none;
+	height: 60%;
+	margin-top: 2%;
+	margin-left: 10%;
+}
+.microfono{
+	color: #B3AEAE;
+	width: 30%;
+}

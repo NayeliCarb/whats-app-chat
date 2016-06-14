@@ -1,3 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #f2f2f2;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	color: black !important;
+}
+a:hover{
+	color: #A5A2A2 !important;
+}
+#content{
+	margin-top: -5%;
+	background-image: url(../image/bg-panel.png);
+	background-size: 100%;
+	margin-left: -25%;
+	margin-right: auto;
+	width: 886.19px;
+	height: 35em;
+	overflow: auto;
+	-moz-border-radius:3px;
+}
+
+#content p{
+	padding: 1em;
+	margin: 1em;
+	background: #dcf8c6;
+	-moz-border-radius:4px;
+	width: 50%;
+	height: 33px;
+	float: right;
+	display: block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#message{
+	margin-top: 10px;
+	margin-right: auto;
+	padding: 0 0 0 3px;
+	color: #000000;
+}
+#message button{
+	margin:1em 0 0 0;
+	margin-left: 47em;
+    margin-top: 0px;
+    position: absolute;
+
+}
+#message textarea{
+	font-family: tahoma,sans-serif;
+	width: 700px;
+	margin-left: -10%;
+	height: 4em;
+	background-color: #E5E0E0;
+	padding-left: 2%;
+	position: absolute;
+	
+
+}
+.emoji{
+	margin-left: -9em !important;
+	margin-top: 3% !important;
+	position: absolute !important;
+}
+button{
+	border-radius: none;
+	border:none;
+	padding: 6px;
+	-moz-border-radius:4px;
+	-moz-box-shadow:0 1px 0 white;
+	cursor: pointer;
+	display: inline-block;
+	background-color: transparent;
+}
+
+
 .backHeader{
 	background-color: #16947B;
 	height: 6em;
@@ -15,26 +139,55 @@
 .scroll{
 	overflow: auto;
 	overflow-x:hidden;
-	height:35em;
+	height:33.7em;
 	padding-left: -50px;
-
+	width: 382.8px;
+	margin-left: -15%;
+}
+.emot img{
+	width: 32px;
+	height: 32px;
+}
+#emoticons{
+	padding: 5%;
+}
+#emoticons a:hover{
+	border: 1px solid #B5B0B0;
+}
+.nav1{
+	margin-top: 3.7%;
+    background-color: rgb(238, 238, 238);
+    padding: 2%;
+    width: 382.8px;
+    margin-left: -15%;
+}
+.nav2{
+	margin-top: 2.5%;
+    background-color: rgb(238, 238, 238);
+    padding:1.3%;
+    margin-left: -25%;
+    width: 886.19px;
 }
 .imgPerfil{
 	border-radius: 150%;
-	width: 11%;
-	height: 69%;
+	width: 3em;
+	height: 3em;
 	margin-top: 2%;
 	margin-left: 2%;
 }
 .conversacion{
 	height: 50em;
 }
+button{
+	cursor: pointer;
+}
 .buscar{
 	background-color: white;
-	width: 100%;
-	height: 5em;
+	width: 382.8px;
+	height: 72px;
+	margin-left: -15%;
 	padding: 2%;
-	border-bottom: 1px solid #B8B3B3;
+	border-bottom: 1px solid #D6CECE;
 }
 input[type=search]{
 	appearance:none;
@@ -55,38 +208,56 @@ input[type=search]{
     padding-bottom: 2%;
     height: 2em;
 }
+.adjuntar{
+	background-color: transparent !important;
+}
+.icon{
+	width: 4em;
+	height: 4em;
+	margin-left: 25%;
+}
 .perfil1{
-	width: 7%;
-	border-radius: 100%;
+	width: 3em;
+	height: 3em;
+	border-radius: 150%;
+	margin-top: 4%;
+}
+.nombreGrupo{
 	display: inline-block;
-	margin-left: 2%;
-	margin-top: 2%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -6%;
+}
+.nombres{
+	margin-top: -2%;
 }
 .conv1{
 	background-color: white;
-	border-bottom: 1px solid #B8B3B3;
-	padding: 1%;
-	height: 20%;
+	border-bottom: 1px solid #DAD7D7;
+	
+	width: 382.8px;
+	height: 72px;
 }
 .texto{
 	display: inline-block;
-	margin-left: 5%;
+	
+	width: 100%;
 }
 .nombre{
 	display: inline-block;
+	margin-left: 5%;
 }
 .hora{
-	margin-top: -6%;
-	margin-left: 10em;
+	margin-top: 3%;
+	float: right;
 	display: inline-block;
+	margin-right: 5%;
 }
-.hora1{
-	margin-top: -6%;
-	margin-left: 110%;
-	
-}
+
 .mensaje{
 	color: #CEC9C9;
+	margin-left: 16%;
+	margin-top: -5%;
 }
 .cuadroNombreConv{
 	background-color: #ECE3E3;
@@ -99,24 +270,18 @@ input[type=search]{
 .nomGrup{
 	font-weight: 600;
 }
-.pergru{
-	width: 6%;
-	margin-left: 2%;
-	margin-top: -1%;
-}
-.integrantes{
-	margin-top: -2%;
-}
+
+
 .txt1{
 	margin-left: 10%;
 }
 .fondoChat{
-	
 	height: 37em;
 	background-image: url(../image/chat-panel-bg.png);
 	background-color: #DBD0D0;
-	margin-top: -1%;
-	width: 100.1%;
+	margin-top: -5%;
+	width: 886.19px;
+	margin-left: -25%;
 }
 .panelGris{
 	margin-left: -5%;
@@ -129,46 +294,48 @@ input[type=search]{
 .uno{
 	margin-top: 0.5%;
 }
-.hora2{
-	margin-left: 80%;
-	margin-top: -2%;
-	position: absolute;
-}
-.mensaje1{
-	margin-top: -3%;
-	margin-bottom: -2%;
-}
-.globo2{
-	background-color:#B8FBB5 !important;
-	float: right;
-	width: 35% !important; 
 
-}
-.globo3{
-	background-color:#B8FBB5 !important;
-	margin-left: 70%;
-	width: 30% !important; 
-	margin-top: 3.5em !important;
-	height: 2.5em !important;
-}
-.cuadroRespuesta{
-	width: 100%;
-	height: 4em;
-	background-color: #E5E0E0;
-	padding-left: 2%;
-}
+
 .fa{
 	font-size: 2em;
 	color: gray;
 }
-.inputRespuesta{
-	width: 80%;
-	border:none;
-	height: 60%;
-	margin-top: 2%;
-	margin-left: 10%;
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
 }
-.microfono{
-	color: #B3AEAE;
-	width: 30%;
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
 }
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #DCAEAE;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #938D8D;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #5d5d5d;
+}
+::-webkit-scrollbar-track {
+  background: #737373;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #c0c0c0;
+}
+::-webkit-scrollbar-track:active {
+  background: #cff3f1;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+

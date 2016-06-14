@@ -1,149 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-	  	<meta charset="utf-8">
-	  	<title>Whatsapp Web</title>
-	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
-	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+<html>
+<head>
+	<title></title>
+	<meta <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+		<link rel="shortcut icon" href="favicon.ico">
+	  	
 	  	<!-- Vincula los CSS que faltan -->
 	  	<link rel="stylesheet" type="text/css" href="css/main.css">
 	  	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/font-awesome.css">
-		<link rel="stylesheet" href="css/main.css">
+		
+		<!-- <link rel="stylesheet" href="js/main.js"> -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<Link rel = "stylesheet" href = "twemoji-awesome.css">
+		<script type="text/javascript" src="js/main.js">
+		
+	</script>
 	</head>
 	<body>
-		<!-- Inserta tu codigo aqui -->
 		<header>
 			<div class="container-fluid">
 				<div class="row backHeader">
 					<div class="container">
 					<div class="col-md-5 ">
-						<div class="cuadroFoto">
-							<img src="image/gian.jpg" class="imgPerfil">
-						</div>
+						<nav class="navbar nav1">
+						  <div class="container-fluid">
+						    <div class="navbar-header">
+						     <a href = "#"><img src="image/gian.jpg" class="imgPerfil"></a>
+						    </div>
+						    <div class="collapse navbar-collapse" id="myNavbar">
+						      <ul class="nav navbar-nav navbar-right">
+						        <li class="dropdown">
+						          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon-message fa-lg"></span></a>
+						        </li>
+						        <li class="dropdown">
+						          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i></a>
+						          <ul class="dropdown-menu">
+						            <li><a href="#">Nuevo Grupo</a></li>
+						            <li><a href="#">Perfil y destacado</a></li>
+						            <li><a href="#">Archivado</a></li>
+						            <li><a href="#">Destacado</a></li>
+						            <li><a href="#">Configuración</a></li>
+						            <li><a href="#">Cerrar sesión</a></li>
+						          </ul>
+						        </li>
+						      </ul>
+						    </div>
+						  </div>
+						</nav>						
 						<div class="buscar">
-							<input name="s" type="search" placeholder="Buscar o empezar un chat nuevo"/>
+							<input type="search" placeholder="Buscar o empezar un chat nuevo" />
 						</div>
-						<section class="scroll">
-							<div class="conv1">
-							<img src="image/logocodeacademy.png" class="perfil1">
+					<section class="scroll">
+						
+
+
+						<a href="#"><div class="conv1" id="conversacionUno">
 							<div class="texto">
-								<p class="nombre">Laboratoria Perú</p>
+								<img src="image/logocodeacademy.png" class="perfil1">
+								<p class="nombre" ><b>Laboratoria México</b></p>
 								<p class="hora">14:25</p>
 								<p class="mensaje">Aldo: Dale dale!</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/raymi.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionDos">
 							<div class="texto">
-								<p class="nombre">Raymi Saldomando</p>
+								<img src="image/raymi.jpg" class="perfil1">
+								<p class="nombre"><b>Raymi Saldomando</b></p>
 								<p class="hora">11:25</p>
 								<p class="mensaje">La clase va bien!</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/mariana.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionTres">
 							<div class="texto">
-								<p class="nombre">Mariana Costa</p>
+								<img src="image/mariana.jpg" class="perfil1">
+								<p class="nombre"><b>Mariana Costa</b></p>
 								<p class="hora">09:25</p>
 								<p class="mensaje">El panel de speakers esta buanazo</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/anamaria.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionCuatro">
 							<div class="texto">
-								<p class="nombre">Ana María Martinez Franklin</p>
+								<img src="image/anamaria.jpg" class="perfil1">
+								<p class="nombre"><b>Ana María Martinez Franklin</b></p>
 								<p class="hora">Ayer</p>
 								<p class="mensaje">Pues dale chamo!</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/rodulfo.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionCinco">
 							<div class="texto">
-								<p class="nombre">Rodulfo Prieto</p>
+								<img src="image/rodulfo.jpg" class="perfil1">
+								<p class="nombre"><b>Rodulfo Prieto</b></p>
 								<p class="hora">Martes</p>
 								<p class="mensaje">¿Cómo van chicas?</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/andrea.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionSeis">
 							<div class="texto">
-								<p class="nombre">Andrea Lamas</p>
+								<img src="image/andrea.jpg" class="perfil1">
+								<p class="nombre"><b>Andrea Lamas</b></p>
 								<p class="hora">Lunes</p>
 								<p class="mensaje">Hoy me toca clases de canto, yee!</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/mariapaula.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionSiete">
 							<div class="texto">
-								<p class="nombre">Maria Paula Rivarola</p>
-								<p class="hora1">13/01/2016</p>
+								<img src="image/mariapaula.jpg" class="perfil1">
+								<p class="nombre"><b>Maria Paula Rivarola</b></p>
+								<p class="hora">13/01/2016</p>
 								<p class="mensaje">Wuju! esto me encanta!! en verdad!</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/katy.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionOcho">
 							<div class="texto">
-								<p class="nombre">Katy Sanchez</p>
-								<p class="hora1">11/01/2016</p>
+								<img src="image/katy.jpg" class="perfil1">
+								<p class="nombre"><b>Katy Sanchez</b></p>
+								<p class="hora">12:54</p>
 								<p class="mensaje">No te preocupes, tengo el salón bajo control</p>
 							</div>
-						</div>
-						<div class="conv1">
-							<img src="image/aldo.jpg" class="perfil1">
+						</div></a>
+						<a href="#"><div class="conv1" id="conversacionNueve">
 							<div class="texto">
-								<p class="nombre">Aldo Alfaro</p>
-								<p class="hora1">03/01/2016</p>
+								<img src="image/aldo.jpg" class="perfil1">
+								<p class="nombre"><b>Aldo Alfaro</b></p>
+								<p class="hora">03/01/2016</p>
 								<p class="mensaje">Vao a comer?</p>
 							</div>
-						</div>
+						</div></a>
 						</section>
-						
 					</div>
 					<div class="container">
 						<div class="col-md-7 hidden-xs">
-						<div class="panel panel-default panelGris">
-							<div class="panel-heading panelTama">
-								<img src="image/logocodeacademy.png" class="perfil1 pergru">
-								<div class="texto txt1">
-									<p class="nombre nomGrup">Laboratoria Perú <i class="icon-attachment"></i><!--CLIP--></p>
-									<p class="integrantes">Ana María, Aldo, Gian Mariana, Papu, Tú</p>
-								</div>
-							</div>	
-							<div class="panel-body fondoChat scroll">
-								
-							</div>
-							<div class="cuadroRespuesta">
-								<i class="icon-insert_emoticon">
-								<input placeholder="Escribe tu mensaje aqui" class="inputRespuesta"> 
-								
-								<button type="submit" class="btn btn-sm" id="agre"><i class="icon-message"></i></button>
-							</div>
-							
-
-							
-
-						</div>
+						<nav class="navbar nav2">
+						  <div class="container-fluid">
+						    <div class="navbar-header">
+						     <a href = "#"><img src="image/logocodeacademy.png" class="perfil1 pergru" id="imgconv"></a>
+						     <p class="nombreGrupo" id="nomChat">Laboratoria México</p>
+						     <p class="nombreGrupo nombres" id="ultimaVez">Ana María, Aldo, Gian Mariana, Papu, Tú</p>
+						    </div>
+						    <div class="collapse navbar-collapse" id="myNavbar">
+						      
+						      <ul class="nav navbar-nav navbar-right">
+						        <li class="dropdown">
+						          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-paperclip fa-lg" aria-hidden="true"></i></a>
+						         	<ul class="dropdown-menu adjuntar">
+						            <li><a href="#"><img class="icon" src="image/images.png" title="Fotos y Videos"></a></li>
+						            <li><a href="#"><img class="icon" src="image/camera.png" title="Cámara"></a></li>
+						            <li><a href="#"><img class="icon" src="image/documents.png" title="Documento"></a></li>
+						          </ul>
+						        </li>
+						        <li class="dropdown">
+						          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i></a>
+						          <ul class="dropdown-menu">
+						            <li><a href="#">Info de contacto</a></li>
+						            <li><a href="#">Seleccionar mensajes</a></li>
+						            <li><a href="#">Silenciar</a></li>
+						            <li><a href="#">Eliminar mensajes</a></li>
+						            <li><a href="#">Eliminar chat</a></li>
+						          </ul>
+						        </li>
+						      </ul>
+						    </div>
+						  </div>
+						</nav>
+	
+					<div id="content">
+						
 					</div>
-				</div>
-			</div>	
-		</header>
-		<!-- <section>
-			 <div id="chatbox"></div>
-     
-		    <form name="message" action="">
-		        <input name="usermsg" type="text" id="usermsg" size="63" />
-		        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
-		    </form>
-		</section> -->
+					<div class="btn-group dropup emoji">
+					  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					    <span><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></span>
+					    
+					  </button>
+					 
+					  <ul class="dropdown-menu emot" id="emoticons" style="padding: 18%;width: 17em !important;">
+					    <a href=""><img src="image/emoticones/1.png"></a>
+					    <a href=""><img src="image/emoticones/2.png"></a>
+					    <a href=""><img src="image/emoticones/3.png"></a>
+					    <a href=""><img src="image/emoticones/4.png"></a>
+					    <a href=""><img src="image/emoticones/5.png"></a>
+					    <a href=""><img src="image/emoticones/6.png"></a>
+					    <a href=""><img src="image/emoticones/7.png"></a>
+					    <a href=""><img src="image/emoticones/8.png"></a>
+					    <a href=""><img src="image/emoticones/9.png"></a>
+					    <a href=""><img src="image/emoticones/10.png"></a>
+					    <a href=""><img src="image/emoticones/11.png"></a>
+					    <a href=""><img src="image/emoticones/12.png"></a>
+					    <a href=""><img src="image/emoticones/13.png"></a>
+					    <a href=""><img src="image/emoticones/14.png"></a>
+					    <a href=""><img src="image/emoticones/15.png"></a>
+					    <a href=""><img src="image/emoticones/16.png"></a>
+					    <a href=""><img src="image/emoticones/17.png"></a>
+					    <a href=""><img src="image/emoticones/18.png"></a>
+					    <a href=""><img src="image/emoticones/19.png"></a>
+					    <a href=""><img src="image/emoticones/20.png"></a>
+					    <a href=""><img src="image/emoticones/21.png"></a>
+					    <a href=""><img src="image/emoticones/22.png"></a>
+					    <a href=""><img src="image/emoticones/23.png"></a>
+					    <a href=""><img src="image/emoticones/24.png"></a>
+					    <a href=""><img src="image/emoticones/25.png"></a>
+					    <a href=""><img src="image/emoticones/26.png"></a>
+					    <a href=""><img src="image/emoticones/27.png"></a>
+					    <a href=""><img src="image/emoticones/28.png"></a>
+					    <a href=""><img src="image/emoticones/29.png"></a>
+					    <a href=""><img src="image/emoticones/30.png"></a>
+					  </ul>
+					</div>
 
+					<div id="message">
+						<textarea rows="2" cols="34" placeholder="escribe tu mensaje" id="mens"></textarea>
+						<button id="send"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
+						</button>
+					</div>
+					</div>
+
+
+
+	
+	<!-- <script src="moment.min.js"></script> -->
 		<!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -152,6 +232,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
-    <script src="js/npm.js"></script>
-	</body>
+    <!-- <script src="js/npm.js"></script> -->
+</body>
 </html>

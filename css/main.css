@@ -208,13 +208,13 @@ input[type=search]{
     padding-bottom: 2%;
     height: 2em;
 }
-.adjuntar{
-	background-color: transparent !important;
-}
 .icon{
 	width: 4em;
 	height: 4em;
 	margin-left: 25%;
+}
+#nomChat{
+	margin-top: -2%;
 }
 .perfil1{
 	width: 3em;
@@ -228,19 +228,15 @@ input[type=search]{
     margin-left: 10%;
     margin-top: -6%;
 }
-.nombres{
-	margin-top: -2%;
-}
+
 .conv1{
 	background-color: white;
 	border-bottom: 1px solid #DAD7D7;
-	
 	width: 382.8px;
 	height: 72px;
 }
 .texto{
 	display: inline-block;
-	
 	width: 100%;
 }
 .nombre{
@@ -270,11 +266,6 @@ input[type=search]{
 .nomGrup{
 	font-weight: 600;
 }
-
-
-.txt1{
-	margin-left: 10%;
-}
 .fondoChat{
 	height: 37em;
 	background-image: url(../image/chat-panel-bg.png);
@@ -283,26 +274,6 @@ input[type=search]{
 	width: 886.19px;
 	margin-left: -25%;
 }
-.panelGris{
-	margin-left: -5%;
-    margin-top: 3.5%;
-}
-.panelTama{
-	height: 4.3em;
-}
-
-.uno{
-	margin-top: 0.5%;
-}
-
-
-.fa{
-	font-size: 2em;
-	color: gray;
-}
-
-
-
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
